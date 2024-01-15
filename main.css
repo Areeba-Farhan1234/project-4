@@ -2,70 +2,133 @@
 
 #header{
     background-color: #3d3d3d;
+    padding: 10px 8px;
 }
 
-#top-header{
+#header .top-header{
     display: flex;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
     position: relative;
     width: auto;
     max-width: 1600px;
 }
-
-#top-item{
-    width: 100%;
-    position: relative;
-    display: flex;
-    text-align: center;
-}
-
-#top-item .phone-icon{
-    padding: 14px 0 10px 0;
+ 
+#phone-icon{
+    padding: 0;
     color: #fff;
     background-color: rgba(27,176,206,0);
-    flex-wrap: wrap;
 }
 
-#top-item .phone-icon i{
+#phone-icon i{
     line-height: 100%;
     font-size: 18px;
 }
 
-#top-item .number{
-    padding: 0 0 1px 10px;
+.number{
+    padding: 0 0 0 10px;
     color: #fff;
     font-family: "Ubuntu",Sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.2em;
-    margin-top: 2px;
     text-align: center;
-    flex-wrap: wrap;
 }
 
-#top-item .icon-list{
+#icon-list {
     width: auto;
     list-style: none;
-    padding-left: 20px;
-    flex-wrap: wrap;
-}
-
-#top-item .icon-list ul{
-    display: flex;
-    margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
 }
 
-#top-item .icon-list ul li{
-    display: inline-block;
-    margin-bottom: 0;
+#icon-list a{
+    align-items: center;
 }
 
-#top-item .icon-list ul li a{
+#icon-list a i{
     color: #fff;
     font-size: 15px;
-    margin: -11px 0 0 9px;
-    line-height: 1;
+    margin: -11px 0 0 7px;
 }
+
+/*--NAVBAR--*/
+
+.navbar{
+    background-color: #fff;
+    padding: 16px 30px 4px 35px;
+    box-shadow: 0px 4px 44px 0px rgba(0,0,0,.14);
+}
+
+.navbar .logo{
+    display: inline-block;
+    border: 0;
+    width: 85%;
+}
+
+.navbar-nav{
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+.navbar-nav .nav-item{
+    display: inline-block;
+    color: #aaa;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+.navbar-nav .nav-item a{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item  a:active{
+    color: #3d3d3d;
+    font-weight: 500
+}
+
+.navbar-nav .nav-item a:hover{
+    color: #ccc;
+}
+
+#purchase-btn{
+    text-align: right;
+    width: auto;
+    margin: 0 10px 10px 0;
+    padding: 14px 45px;
+    border-radius: 50px;
+    background-color: rgb(78, 221, 130);
+    box-shadow: 6px 6px 25px 0px rgba(0,217,166,.35);
+}
+
+#purchase-btn span{
+    text-shadow: 0px 0px 10px rgba(0,0,0,.04);
+    text-transform: uppercase;
+    transform: translate(-50%,-50%) scale(0,0);
+    color: #fff;
+    font-family: "Quicksand",Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+#purchase-btn:hover{
+    color: #fff;
+    background: rgb(42, 42, 42);
+}
+
+#serach-icon{
+    height: 26px;
+    width: 26px;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(78, 221, 130);
+}
+
+
+/*--HERO SECTIONS--*/
